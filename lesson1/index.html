@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="aboutme.html">About Me</a>
+      </div>
+      <h1>Hello welcome to my page!</h1>
+      <h2> Before we start let me ask you a few question. Please fill out the form below!</h2>
+      <div>
+        <form name="visitorForm" onsubmit="viewer(); return false">
+        Please enter name: <input type="text" name="fullName">
+        <br>
+        <br>
+        Please enter age: <input type="text" name="visitorAge">
+        <br>
+        <br>
+        <button type="Submit">Submit</button>
+        </form>
+        <ul id="myVisitors"> 
+        </ul>
+      </div>
+      <div>
+        <p>If you would like to learn more about me continue on to the " <a href="aboutme.html">About me </a>" page!</p>
+      </div>
+
+</body>
+</html>
